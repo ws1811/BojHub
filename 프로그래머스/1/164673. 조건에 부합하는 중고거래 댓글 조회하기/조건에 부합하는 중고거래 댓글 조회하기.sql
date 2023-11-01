@@ -13,4 +13,4 @@ ON     b.board_id = r.board_id
 WHERE  extract(year from b.created_date) = 2022
    and extract(month from b.created_date) = 10
 ORDER BY r.created_date asc, 
-         b.title; 
+         b.title;
